@@ -1,14 +1,14 @@
 name: eShopOnWeb Build and Test
 
 #Triggers (uncomment line below to use it)
-on: [push, workflow_dispatch]
+#on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: daya-rg-testing
+  RESOURCE-GROUP: 
   LOCATION: eastus
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
-  SUBSCRIPTION-ID: 8d2667fe-3006-48d8-9171-3cf848e6472c
+  SUBSCRIPTION-ID: 
   WEBAPP-NAME: az400-webapp-daya
 
 
